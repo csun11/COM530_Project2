@@ -115,10 +115,6 @@ color: white;
 }
 
 
-a
-{ text-decoration:none; }
-
-
 #content ul li.no_bullet {list-style-type: none;}
 
 h1
@@ -172,6 +168,13 @@ font-size: 22px;
 font-weight: bold; 
 text-align: center;
 line-height: 200%;
+}
+
+p#breadscrumbs
+{
+line-height: 150%;
+font-style: italic;
+background-color: #CCCCCC;
 }
 
 a.pf_entry
