@@ -6,7 +6,7 @@ border-style:double;
 border-width:medium;
 margin: 0px 40px 0px 230px; 
 padding: 20px 20px 20px 60px; 
-background-color: #FFF;
+background-color: #E0EEEE; 
 }
 
 ul.accessibility
@@ -14,7 +14,7 @@ ul.accessibility
 
 
 strong
-{ font-style:italic; line-height: 200%;}
+{ font-style:italic; font-weight: bold; line-height: 200%; }
 
 
 #header
@@ -27,11 +27,11 @@ background-repeat: no-repeat;
 background-position: 25px 15px;
 }
 
-#sub_header p
+#sub_header
 {
 text-align: right; 
 position: fixed;
-top: 40px; 
+top: 40px;
 right: 40px; 
 font-style: italic;
 font-size: 16px; 
@@ -58,7 +58,7 @@ font-size:22px;
 }
 
 
-ul#nav
+ul#nav 
 {
 list-style-type:none;
 border-style:solid; 
@@ -66,6 +66,7 @@ border-width:thin;
 padding:0px 2px;
 text-align:right;
 background-color:#CCCCCC;
+font-weight: bold;
 }
 
 
@@ -102,6 +103,7 @@ ul#nav a, ul#links a
 display: block;
 color: #000066;
 text-decoration: none;
+font-weight: normal; 
 }
 
 ul#nav a:hover {
@@ -172,7 +174,7 @@ line-height: 200%;
 
 p#breadscrumbs
 {
-line-height: 150%;
+line-height: 200%;
 font-style: italic;
 background-color: #CCCCCC;
 }
@@ -189,12 +191,11 @@ img
 border: double;
 }
 
-/*not a very good solution*/
+
 ul#portfolio_index li 
 { 
 list-style-type: none;
 }
-/*not a very good solution*/
 
 
 ul#portfolio_index li a 
