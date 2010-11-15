@@ -1,5 +1,8 @@
 /*specific for IE version 7 and lower*/
 
+#nav_bar
+{position:absolute;}
+
 #nav_bar ul#links
 {
 position: relative; 
