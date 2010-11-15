@@ -17,7 +17,12 @@
 
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
 	<script type="text/javascript">
-		
+	  $(document).ready(function(){
+		$('h3').addClass('hasjs');
+		$('h3').click(function() {
+		  $(this).siblings('*').toggle();
+		  });
+		});
 
 	</script>
 
@@ -33,9 +38,9 @@
 
 
 
-	<div id="header">
-		<h1>Cong Sun</h1>
-	</div>
+	<a href="homepage.htm"><div id="header">
+		<h1>Sun, Cong's Info</h1>
+	</div></a>
 
 	
 	<div id="content">
@@ -45,7 +50,7 @@
 		</div>
 
 		<div id="objective">
-			<strong>OBJECTIVE: part-time job with chance to use skills in technical writing and info design 
+			<strong>OBJECTIVE: full-time job with chance to use skills in usability evaluation, info architecture, Web design, and technical writing 
 			</strong>
 		</div>
 		
