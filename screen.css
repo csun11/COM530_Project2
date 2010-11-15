@@ -61,7 +61,7 @@ list-style-type: none;
 
 /*begin styling the navigation bar*/
 #nav_bar
-{position:fixed;
+{position:absolute;
 top:163px;
 left:25px;
 font-size:15px;

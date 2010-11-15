@@ -33,6 +33,11 @@ text-indent: 30px;
 #footer
 {text-align: right; line-height: 300%;}
 
+img
+{ 
+border: double;
+}
+
 /* resume-specific CSS starts */
 p#name
 {
