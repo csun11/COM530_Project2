@@ -1,53 +1,49 @@
-/* portfolio-specific CSS starts */
-p#welcome
-{ font-size: 16pt; font-weight: bold; text-align: center;}
+ul#nav, ul#links, ul.accessibility, #sub_header
+{display:none;}
 
-img
-{ 
-position:relative;
-top: 15px;
-left: 30px;
+h1 
+{font-size: 22px; font-weight: bold; }
+
+h2, h3, h4
+{font-weight: bold; line-height: 150%;}
+
+h2
+{font-size: 20px;}
+
+h3
+{font-size: 18px; text-transform: uppercase; }
+
+h4
+{font-size: 16px;}
+
+p#breadcrumbs
+{font-size: 16px; text-align: left; line-height: 200%;}
+
+a.pf_entry
+{font-size: 16px; font-weight: bold; line-height: 200%;}
+
+strong
+{ font-style:italic; line-height: 200%; }
+
+#content div ul li
+{
+text-indent: 30px;
 }
 
-/* portfolio-specific CSS ends */
+#footer
+{text-align: right; line-height: 300%;}
 
 /* resume-specific CSS starts */
-
-#resume
+p#name
 {
-border-style:solid; 
-border-width:thin;
+font-size: 22px; text-align: center; line-height: 200%;
 }
-div#resume
+
+address
 {
-margin: 10px;
-padding: 0px 20px 0px 60px; 
+font-size: 19px; text-align: center; line-height: 200%;
 }
 
 a
 {text-decoration: none; }
-
-ul#nav, ul#links
-{display:none;}
-
-p.name
-{
-font-size: 16pt; text-align: center;
-}
-address
-{
-font-size: 14pt; text-align: center;
-}
-span.sub_title
-{
-font-weight: bold; font-family: arial; font-size:10pt; font-style: italic;
-}
-h3, h4
-{
-text-indent: -25px;
-}
-h4
-{
-font-size:12pt;
-}
 /* resume-specific CSS ends */
